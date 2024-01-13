@@ -1,5 +1,6 @@
 .red{
     background-color: red;
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14,0.8);
 }
 .marker{
     height: 25px;
@@ -8,29 +9,32 @@
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
+   
 }
 
 .green{
     background-color: green;
+    box-shadow: 0 0 20px 0  #3B7E20CC;
 }
 .marker{
     height: 25px;
     width: 250px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
+   
+   
 }
 .blue{
     background-color: blue;
+    box-shadow: 0 0 20px 0  hsla(233, 76%, 18%, 0.8);
+   
 }
 .marker{
     height: 25px;
     width: 250px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
+   
 }
 .sleeve, .cap{
     display: flex;
@@ -45,6 +49,9 @@
     background-color: rgb(255, 255, 255,0.5);
     border-left-style: double;
     border-left-color: rgb(0, 0, 0,0.75);
-    border-left-width: 45px;
-    margin-left: 60px;
+    border-left-width: 15px;
+    margin-left: 100px;
+}
+.border{
+    text-align: center;
 }
